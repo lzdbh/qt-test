@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/img">
+        <file alias="1">C:/Users/user/Pictures/mm/6.jpg</file>
+        <file alias="2">C:/Users/user/Pictures/mm/1.jpg</file>
+    </qresource>
+</RCC>

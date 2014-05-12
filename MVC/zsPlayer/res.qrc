@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qml/zsPlayer/Button.qml</file>
+        <file>qml/zsPlayer/ControlPanel.qml</file>
+        <file>qml/zsPlayer/main.qml</file>
+        <file>qml/zsPlayer/ProgressBar.qml</file>
+        <file>qml/zsPlayer/Slider.qml</file>
+        <file>qml/zsPlayer/utils.js</file>
+    </qresource>
+    <qresource prefix="/qml">
+        <file>theme/default/backward.svg</file>
+        <file>theme/default/close.svg</file>
+        <file>theme/default/forward.svg</file>
+        <file>theme/default/fullscreen.svg</file>
+        <file>theme/default/help.svg</file>
+        <file>theme/default/info.svg</file>
+        <file>theme/default/open.svg</file>
+        <file>theme/default/pause.svg</file>
+        <file>theme/default/play.svg</file>
+        <file>theme/default/stop.svg</file>
+    </qresource>
+</RCC>
