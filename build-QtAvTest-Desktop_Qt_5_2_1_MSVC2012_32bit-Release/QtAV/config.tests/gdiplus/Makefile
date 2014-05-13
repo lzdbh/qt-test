@@ -57,26 +57,6 @@ DESTDIR_TARGET = gdiplus.exe
 
 .SUFFIXES: .c .cpp .cc .cxx
 
-{.}.cpp{}.obj::
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -Fo @<<
-	$<
-<<
-
-{.}.cc{}.obj::
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -Fo @<<
-	$<
-<<
-
-{.}.cxx{}.obj::
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -Fo @<<
-	$<
-<<
-
-{.}.c{}.obj::
-	$(CC) -c $(CFLAGS) $(INCPATH) -Fo @<<
-	$<
-<<
-
 {E:\qt-test\QtAvTest\QtAV\config.tests\gdiplus}.cpp{}.obj::
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -Fo @<<
 	$<
@@ -93,6 +73,26 @@ DESTDIR_TARGET = gdiplus.exe
 <<
 
 {E:\qt-test\QtAvTest\QtAV\config.tests\gdiplus}.c{}.obj::
+	$(CC) -c $(CFLAGS) $(INCPATH) -Fo @<<
+	$<
+<<
+
+{.}.cpp{}.obj::
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -Fo @<<
+	$<
+<<
+
+{.}.cc{}.obj::
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -Fo @<<
+	$<
+<<
+
+{.}.cxx{}.obj::
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -Fo @<<
+	$<
+<<
+
+{.}.c{}.obj::
 	$(CC) -c $(CFLAGS) $(INCPATH) -Fo @<<
 	$<
 <<

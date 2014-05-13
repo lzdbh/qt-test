@@ -101,26 +101,6 @@ DESTDIR_TARGET = ..\..\bin\qmlvideofx.exe
 	$<
 <<
 
-{E:/qt-test/build-QtAvTest-Desktop_Qt_5_2_1_MSVC2012_32bit-Release/QtAV/.ui/5.2.1/qmlvideofx}.cpp{..\..\.obj\qmlvideofx_win_x86\}.obj::
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -Fo..\..\.obj\qmlvideofx_win_x86\ @<<
-	$<
-<<
-
-{E:/qt-test/build-QtAvTest-Desktop_Qt_5_2_1_MSVC2012_32bit-Release/QtAV/.ui/5.2.1/qmlvideofx}.cc{..\..\.obj\qmlvideofx_win_x86\}.obj::
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -Fo..\..\.obj\qmlvideofx_win_x86\ @<<
-	$<
-<<
-
-{E:/qt-test/build-QtAvTest-Desktop_Qt_5_2_1_MSVC2012_32bit-Release/QtAV/.ui/5.2.1/qmlvideofx}.cxx{..\..\.obj\qmlvideofx_win_x86\}.obj::
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -Fo..\..\.obj\qmlvideofx_win_x86\ @<<
-	$<
-<<
-
-{E:/qt-test/build-QtAvTest-Desktop_Qt_5_2_1_MSVC2012_32bit-Release/QtAV/.ui/5.2.1/qmlvideofx}.c{..\..\.obj\qmlvideofx_win_x86\}.obj::
-	$(CC) -c $(CFLAGS) $(INCPATH) -Fo..\..\.obj\qmlvideofx_win_x86\ @<<
-	$<
-<<
-
 {.}.cpp{..\..\.obj\qmlvideofx_win_x86\}.obj::
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -Fo..\..\.obj\qmlvideofx_win_x86\ @<<
 	$<
@@ -161,6 +141,26 @@ DESTDIR_TARGET = ..\..\bin\qmlvideofx.exe
 	$<
 <<
 
+{E:/qt-test/build-QtAvTest-Desktop_Qt_5_2_1_MSVC2012_32bit-Release/QtAV/.ui/5.2.1/qmlvideofx}.cpp{..\..\.obj\qmlvideofx_win_x86\}.obj::
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -Fo..\..\.obj\qmlvideofx_win_x86\ @<<
+	$<
+<<
+
+{E:/qt-test/build-QtAvTest-Desktop_Qt_5_2_1_MSVC2012_32bit-Release/QtAV/.ui/5.2.1/qmlvideofx}.cc{..\..\.obj\qmlvideofx_win_x86\}.obj::
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -Fo..\..\.obj\qmlvideofx_win_x86\ @<<
+	$<
+<<
+
+{E:/qt-test/build-QtAvTest-Desktop_Qt_5_2_1_MSVC2012_32bit-Release/QtAV/.ui/5.2.1/qmlvideofx}.cxx{..\..\.obj\qmlvideofx_win_x86\}.obj::
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -Fo..\..\.obj\qmlvideofx_win_x86\ @<<
+	$<
+<<
+
+{E:/qt-test/build-QtAvTest-Desktop_Qt_5_2_1_MSVC2012_32bit-Release/QtAV/.ui/5.2.1/qmlvideofx}.c{..\..\.obj\qmlvideofx_win_x86\}.obj::
+	$(CC) -c $(CFLAGS) $(INCPATH) -Fo..\..\.obj\qmlvideofx_win_x86\ @<<
+	$<
+<<
+
 ####### Build rules
 
 first: all
@@ -178,7 +178,7 @@ qmake: FORCE
 qmake_all: FORCE
 
 dist:
-	$(ZIP) qmlvideofx.zip $(SOURCES) $(DIST) E:\qt-test\QtAvTest\QtAvTest.pro C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\spec_pre.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\common\shell-win32.conf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\qconfig.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_axbase.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_axbase_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_axcontainer.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_axcontainer_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_axserver.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_axserver_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_bluetooth.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_bluetooth_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_bootstrap_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_clucene_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_concurrent.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_concurrent_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_core.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_core_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_declarative.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_declarative_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_designer.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_designer_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_designercomponents_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_gui.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_gui_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_help.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_help_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_multimedia.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_multimedia_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_multimediawidgets.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_multimediawidgets_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_network.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_network_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_nfc.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_nfc_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_opengl.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_opengl_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_openglextensions.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_openglextensions_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_platformsupport_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_positioning.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_positioning_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_printsupport.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_printsupport_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_qml.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_qml_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_qmldevtools_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_qmltest.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_qmltest_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_qtmultimediaquicktools_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_quick.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_quick_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_quickparticles_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_script.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_script_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_scripttools.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_scripttools_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_sensors.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_sensors_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_serialport.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_serialport_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_sql.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_sql_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_svg.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_svg_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_testlib.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_testlib_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_uitools.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_uitools_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_webkit.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_webkit_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_webkitwidgets.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_webkitwidgets_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_widgets.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_widgets_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_winextras.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_winextras_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_xml.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_xml_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_xmlpatterns.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_xmlpatterns_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\qt_functions.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\qt_config.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\win32-msvc2012\qmake.conf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\spec_post.prf ..\..\.qmake.cache C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\exclusive_builds.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\default_pre.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\win32\default_pre.prf E:\qt-test\QtAvTest\QtAV\common.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\resolve_config.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\exclusive_builds_post.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\default_post.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\build_pass.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\win32\rtti.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\warn_on.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\qt.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\resources.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\moc.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\win32\opengl.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\win32\windows.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\testcase_targets.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\exceptions.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\yacc.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\lex.prf E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qmlvideofx.pro E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qmlvideofx.qrc C:/Qt/Qt.msvc32.5.2.1/5.2.1/msvc2012/lib/Qt5Quick.prl C:/Qt/Qt.msvc32.5.2.1/5.2.1/msvc2012/lib/Qt5Qml.prl C:/Qt/Qt.msvc32.5.2.1/5.2.1/msvc2012/lib/Qt5Network.prl C:/Qt/Qt.msvc32.5.2.1/5.2.1/msvc2012/lib/Qt5Gui.prl C:/Qt/Qt.msvc32.5.2.1/5.2.1/msvc2012/lib/Qt5Core.prl C:/Qt/Qt.msvc32.5.2.1/5.2.1/msvc2012/lib/libEGL.prl C:/Qt/Qt.msvc32.5.2.1/5.2.1/msvc2012/lib/libGLESv2.prl  RESOURCES HEADERS SOURCES OBJECTIVE_SOURCES YACCSOURCES YACCSOURCES LEXSOURCES 
+	$(ZIP) qmlvideofx.zip $(SOURCES) $(DIST) E:\qt-test\QtAvTest\QtAV\QtAV.pro C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\spec_pre.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\common\shell-win32.conf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\qconfig.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_axbase.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_axbase_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_axcontainer.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_axcontainer_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_axserver.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_axserver_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_bluetooth.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_bluetooth_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_bootstrap_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_clucene_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_concurrent.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_concurrent_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_core.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_core_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_declarative.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_declarative_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_designer.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_designer_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_designercomponents_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_gui.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_gui_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_help.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_help_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_multimedia.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_multimedia_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_multimediawidgets.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_multimediawidgets_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_network.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_network_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_nfc.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_nfc_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_opengl.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_opengl_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_openglextensions.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_openglextensions_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_platformsupport_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_positioning.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_positioning_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_printsupport.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_printsupport_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_qml.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_qml_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_qmldevtools_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_qmltest.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_qmltest_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_qtmultimediaquicktools_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_quick.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_quick_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_quickparticles_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_script.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_script_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_scripttools.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_scripttools_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_sensors.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_sensors_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_serialport.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_serialport_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_sql.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_sql_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_svg.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_svg_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_testlib.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_testlib_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_uitools.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_uitools_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_webkit.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_webkit_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_webkitwidgets.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_webkitwidgets_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_widgets.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_widgets_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_winextras.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_winextras_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_xml.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_xml_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_xmlpatterns.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_xmlpatterns_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\qt_functions.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\qt_config.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\win32-msvc2012\qmake.conf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\spec_post.prf ..\..\.qmake.cache C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\exclusive_builds.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\default_pre.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\win32\default_pre.prf E:\qt-test\QtAvTest\QtAV\common.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\resolve_config.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\exclusive_builds_post.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\default_post.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\build_pass.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\win32\rtti.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\warn_on.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\qt.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\resources.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\moc.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\win32\opengl.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\win32\windows.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\testcase_targets.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\exceptions.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\yacc.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\lex.prf E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qmlvideofx.pro E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qmlvideofx.qrc C:/Qt/Qt.msvc32.5.2.1/5.2.1/msvc2012/lib/Qt5Quick.prl C:/Qt/Qt.msvc32.5.2.1/5.2.1/msvc2012/lib/Qt5Qml.prl C:/Qt/Qt.msvc32.5.2.1/5.2.1/msvc2012/lib/Qt5Network.prl C:/Qt/Qt.msvc32.5.2.1/5.2.1/msvc2012/lib/Qt5Gui.prl C:/Qt/Qt.msvc32.5.2.1/5.2.1/msvc2012/lib/Qt5Core.prl C:/Qt/Qt.msvc32.5.2.1/5.2.1/msvc2012/lib/libEGL.prl C:/Qt/Qt.msvc32.5.2.1/5.2.1/msvc2012/lib/libGLESv2.prl  RESOURCES HEADERS SOURCES OBJECTIVE_SOURCES YACCSOURCES YACCSOURCES LEXSOURCES 
 
 clean: compiler_clean 
 	-$(DEL_FILE) ..\..\.obj\qmlvideofx_win_x86\filereader.obj ..\..\.obj\qmlvideofx_win_x86\main.obj ..\..\.obj\qmlvideofx_win_x86\qrc_qmlvideofx.obj ..\..\.obj\qmlvideofx_win_x86\moc_filereader.obj
@@ -198,73 +198,73 @@ compiler_rcc_make_all: ..\..\.rcc\5.2.1\qmlvideofx\qrc_qmlvideofx.cpp
 compiler_rcc_clean:
 	-$(DEL_FILE) ..\..\.rcc\5.2.1\qmlvideofx\qrc_qmlvideofx.cpp
 ..\..\.rcc\5.2.1\qmlvideofx\qrc_qmlvideofx.cpp: E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qmlvideofx.qrc \
-		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\images\close.png \
-		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\images\titlebar.sci \
-		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\images\up.png \
-		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\images\titlebar.png \
-		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\images\folder.png \
-		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\images\qt-logo.png \
-		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\EffectShockwave.qml \
-		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\EffectTiltShift.qml \
-		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\EffectToon.qml \
+		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\shaders\tiltshift.fsh \
+		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\shaders\pagecurl.fsh \
+		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\shaders\sobeledgedetection1.fsh \
+		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\shaders\blackandwhite.fsh \
+		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\shaders\shockwave.fsh \
+		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\shaders\sobeledgedetection2.fsh \
+		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\shaders\sepia.fsh \
+		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\shaders\posterize.fsh \
+		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\shaders\billboard.fsh \
+		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\shaders\isolate.fsh \
+		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\shaders\ripple.fsh \
+		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\shaders\toon.fsh \
+		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\shaders\sharpen.fsh \
+		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\shaders\gaussianblur_h.fsh \
+		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\shaders\glow.fsh \
+		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\shaders\vignette.fsh \
+		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\shaders\emboss.fsh \
+		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\shaders\wobble.fsh \
+		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\shaders\pixelate.fsh \
+		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\shaders\magnify.fsh \
+		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\shaders\gaussianblur_v.fsh \
+		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\shaders\warhol.fsh \
+		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\shaders\selectionpanel.fsh \
 		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\EffectGlow.qml \
-		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\DisableScreenSaver.qml \
-		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\ContentImage.qml \
-		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\ContentCamera.qml \
-		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\Button.qml \
-		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\Divider.qml \
-		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\EffectBlackAndWhite.qml \
-		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\EffectBillboard.qml \
-		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\EffectSharpen.qml \
-		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\EffectSelectionPanel.qml \
-		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\EffectSepia.qml \
-		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\EffectWobble.qml \
-		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\Effect.qml \
-		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\EffectGaussianBlur.qml \
-		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\EffectPosterize.qml \
-		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\ParameterPanel.qml \
-		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\EffectPassThrough.qml \
 		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\HintedMouseArea.qml \
-		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\EffectVignette.qml \
+		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\EffectSobelEdgeDetection1.qml \
+		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\ParameterPanel.qml \
+		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\Button.qml \
+		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\Content.qml \
+		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\EffectIsolate.qml \
 		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\EffectEmboss.qml \
 		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\FileOpen.qml \
 		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\EffectRipple.qml \
-		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\FileBrowser.qml \
-		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\EffectMagnify.qml \
-		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\EffectWarhol.qml \
-		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\EffectPageCurl.qml \
-		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\main-smallscreen.qml \
-		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\main-largescreen.qml \
-		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\ContentVideo.qml \
-		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\EffectIsolate.qml \
-		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\EffectSobelEdgeDetection2.qml \
+		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\Divider.qml \
+		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\EffectSepia.qml \
+		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\ContentCamera.qml \
 		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\Slider.qml \
+		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\EffectMagnify.qml \
+		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\DisableScreenSaver.qml \
+		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\EffectWarhol.qml \
+		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\EffectSharpen.qml \
+		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\EffectPageCurl.qml \
+		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\ContentVideo.qml \
+		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\EffectShockwave.qml \
+		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\EffectTiltShift.qml \
+		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\EffectPassThrough.qml \
+		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\EffectGaussianBlur.qml \
+		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\EffectVignette.qml \
+		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\FileBrowser.qml \
 		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\EffectPixelate.qml \
-		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\EffectSobelEdgeDetection1.qml \
-		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\Content.qml \
-		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\shaders\pagecurl.fsh \
-		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\shaders\toon.fsh \
-		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\shaders\wobble.fsh \
-		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\shaders\shockwave.fsh \
-		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\shaders\warhol.fsh \
-		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\shaders\glow.fsh \
-		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\shaders\posterize.fsh \
-		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\shaders\tiltshift.fsh \
-		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\shaders\gaussianblur_v.fsh \
-		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\shaders\isolate.fsh \
-		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\shaders\billboard.fsh \
-		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\shaders\vignette.fsh \
-		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\shaders\sharpen.fsh \
-		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\shaders\selectionpanel.fsh \
-		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\shaders\blackandwhite.fsh \
-		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\shaders\pixelate.fsh \
-		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\shaders\ripple.fsh \
-		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\shaders\sobeledgedetection1.fsh \
-		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\shaders\sobeledgedetection2.fsh \
-		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\shaders\emboss.fsh \
-		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\shaders\magnify.fsh \
-		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\shaders\gaussianblur_h.fsh \
-		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\shaders\sepia.fsh
+		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\Effect.qml \
+		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\EffectBlackAndWhite.qml \
+		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\EffectSelectionPanel.qml \
+		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\main-largescreen.qml \
+		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\main-smallscreen.qml \
+		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\ContentImage.qml \
+		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\EffectBillboard.qml \
+		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\EffectPosterize.qml \
+		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\EffectWobble.qml \
+		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\EffectToon.qml \
+		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qml\qmlvideofx\EffectSobelEdgeDetection2.qml \
+		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\images\folder.png \
+		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\images\up.png \
+		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\images\qt-logo.png \
+		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\images\close.png \
+		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\images\titlebar.sci \
+		E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\images\titlebar.png
 	C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\bin\rcc.exe -name qmlvideofx E:\qt-test\QtAvTest\QtAV\examples\qmlvideofx\qmlvideofx.qrc -o ..\..\.rcc\5.2.1\qmlvideofx\qrc_qmlvideofx.cpp
 
 compiler_moc_header_make_all: ..\..\.moc\5.2.1\qmlvideofx\moc_filereader.cpp

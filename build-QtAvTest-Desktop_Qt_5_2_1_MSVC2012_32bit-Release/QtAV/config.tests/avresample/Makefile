@@ -57,26 +57,6 @@ DESTDIR_TARGET = avresample.exe
 
 .SUFFIXES: .c .cpp .cc .cxx
 
-{E:\qt-test\QtAvTest\QtAV\config.tests\avresample}.cpp{}.obj::
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -Fo @<<
-	$<
-<<
-
-{E:\qt-test\QtAvTest\QtAV\config.tests\avresample}.cc{}.obj::
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -Fo @<<
-	$<
-<<
-
-{E:\qt-test\QtAvTest\QtAV\config.tests\avresample}.cxx{}.obj::
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -Fo @<<
-	$<
-<<
-
-{E:\qt-test\QtAvTest\QtAV\config.tests\avresample}.c{}.obj::
-	$(CC) -c $(CFLAGS) $(INCPATH) -Fo @<<
-	$<
-<<
-
 {.}.cpp{}.obj::
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -Fo @<<
 	$<
@@ -93,6 +73,26 @@ DESTDIR_TARGET = avresample.exe
 <<
 
 {.}.c{}.obj::
+	$(CC) -c $(CFLAGS) $(INCPATH) -Fo @<<
+	$<
+<<
+
+{E:\qt-test\QtAvTest\QtAV\config.tests\avresample}.cpp{}.obj::
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -Fo @<<
+	$<
+<<
+
+{E:\qt-test\QtAvTest\QtAV\config.tests\avresample}.cc{}.obj::
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -Fo @<<
+	$<
+<<
+
+{E:\qt-test\QtAvTest\QtAV\config.tests\avresample}.cxx{}.obj::
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -Fo @<<
+	$<
+<<
+
+{E:\qt-test\QtAvTest\QtAV\config.tests\avresample}.c{}.obj::
 	$(CC) -c $(CFLAGS) $(INCPATH) -Fo @<<
 	$<
 <<

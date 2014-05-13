@@ -1,4 +1,5 @@
 #include <QtGui/QGuiApplication>
+#include <QQuickItem>
 #include "qtquick2applicationviewer.h"
 
 int main(int argc, char *argv[])

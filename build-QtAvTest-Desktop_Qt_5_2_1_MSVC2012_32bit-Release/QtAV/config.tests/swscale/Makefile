@@ -57,26 +57,6 @@ DESTDIR_TARGET = swscale.exe
 
 .SUFFIXES: .c .cpp .cc .cxx
 
-{E:\qt-test\QtAvTest\QtAV\config.tests\swscale}.cpp{}.obj::
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -Fo @<<
-	$<
-<<
-
-{E:\qt-test\QtAvTest\QtAV\config.tests\swscale}.cc{}.obj::
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -Fo @<<
-	$<
-<<
-
-{E:\qt-test\QtAvTest\QtAV\config.tests\swscale}.cxx{}.obj::
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -Fo @<<
-	$<
-<<
-
-{E:\qt-test\QtAvTest\QtAV\config.tests\swscale}.c{}.obj::
-	$(CC) -c $(CFLAGS) $(INCPATH) -Fo @<<
-	$<
-<<
-
 {.}.cpp{}.obj::
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -Fo @<<
 	$<
@@ -93,6 +73,26 @@ DESTDIR_TARGET = swscale.exe
 <<
 
 {.}.c{}.obj::
+	$(CC) -c $(CFLAGS) $(INCPATH) -Fo @<<
+	$<
+<<
+
+{E:\qt-test\QtAvTest\QtAV\config.tests\swscale}.cpp{}.obj::
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -Fo @<<
+	$<
+<<
+
+{E:\qt-test\QtAvTest\QtAV\config.tests\swscale}.cc{}.obj::
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -Fo @<<
+	$<
+<<
+
+{E:\qt-test\QtAvTest\QtAV\config.tests\swscale}.cxx{}.obj::
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -Fo @<<
+	$<
+<<
+
+{E:\qt-test\QtAvTest\QtAV\config.tests\swscale}.c{}.obj::
 	$(CC) -c $(CFLAGS) $(INCPATH) -Fo @<<
 	$<
 <<

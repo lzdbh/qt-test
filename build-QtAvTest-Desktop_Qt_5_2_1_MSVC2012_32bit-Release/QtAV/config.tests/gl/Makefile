@@ -57,26 +57,6 @@ DESTDIR_TARGET = gl.exe
 
 .SUFFIXES: .c .cpp .cc .cxx
 
-{E:\qt-test\QtAvTest\QtAV\config.tests\gl}.cpp{}.obj::
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -Fo @<<
-	$<
-<<
-
-{E:\qt-test\QtAvTest\QtAV\config.tests\gl}.cc{}.obj::
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -Fo @<<
-	$<
-<<
-
-{E:\qt-test\QtAvTest\QtAV\config.tests\gl}.cxx{}.obj::
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -Fo @<<
-	$<
-<<
-
-{E:\qt-test\QtAvTest\QtAV\config.tests\gl}.c{}.obj::
-	$(CC) -c $(CFLAGS) $(INCPATH) -Fo @<<
-	$<
-<<
-
 {.}.cpp{}.obj::
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -Fo @<<
 	$<
@@ -93,6 +73,26 @@ DESTDIR_TARGET = gl.exe
 <<
 
 {.}.c{}.obj::
+	$(CC) -c $(CFLAGS) $(INCPATH) -Fo @<<
+	$<
+<<
+
+{E:\qt-test\QtAvTest\QtAV\config.tests\gl}.cpp{}.obj::
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -Fo @<<
+	$<
+<<
+
+{E:\qt-test\QtAvTest\QtAV\config.tests\gl}.cc{}.obj::
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -Fo @<<
+	$<
+<<
+
+{E:\qt-test\QtAvTest\QtAV\config.tests\gl}.cxx{}.obj::
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -Fo @<<
+	$<
+<<
+
+{E:\qt-test\QtAvTest\QtAV\config.tests\gl}.c{}.obj::
 	$(CC) -c $(CFLAGS) $(INCPATH) -Fo @<<
 	$<
 <<

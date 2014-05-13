@@ -203,22 +203,22 @@ DESTDIR_TARGET = ..\lib_win_x86\QtAVd1.dll
 
 .SUFFIXES: .c .cpp .cc .cxx
 
-{E:\qt-test\QtAvTest\QtAV\src\utils}.cpp{..\.obj\QtAVd_win_x86\}.obj::
+{E:/qt-test/build-QtAvTest-Desktop_Qt_5_2_1_MSVC2012_32bit-Release/QtAV/.ui/5.2.1/QtAVd}.cpp{..\.obj\QtAVd_win_x86\}.obj::
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -Fo..\.obj\QtAVd_win_x86\ @<<
 	$<
 <<
 
-{E:\qt-test\QtAvTest\QtAV\src\utils}.cc{..\.obj\QtAVd_win_x86\}.obj::
+{E:/qt-test/build-QtAvTest-Desktop_Qt_5_2_1_MSVC2012_32bit-Release/QtAV/.ui/5.2.1/QtAVd}.cc{..\.obj\QtAVd_win_x86\}.obj::
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -Fo..\.obj\QtAVd_win_x86\ @<<
 	$<
 <<
 
-{E:\qt-test\QtAvTest\QtAV\src\utils}.cxx{..\.obj\QtAVd_win_x86\}.obj::
+{E:/qt-test/build-QtAvTest-Desktop_Qt_5_2_1_MSVC2012_32bit-Release/QtAV/.ui/5.2.1/QtAVd}.cxx{..\.obj\QtAVd_win_x86\}.obj::
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -Fo..\.obj\QtAVd_win_x86\ @<<
 	$<
 <<
 
-{E:\qt-test\QtAvTest\QtAV\src\utils}.c{..\.obj\QtAVd_win_x86\}.obj::
+{E:/qt-test/build-QtAvTest-Desktop_Qt_5_2_1_MSVC2012_32bit-Release/QtAV/.ui/5.2.1/QtAVd}.c{..\.obj\QtAVd_win_x86\}.obj::
 	$(CC) -c $(CFLAGS) $(INCPATH) -Fo..\.obj\QtAVd_win_x86\ @<<
 	$<
 <<
@@ -243,22 +243,22 @@ DESTDIR_TARGET = ..\lib_win_x86\QtAVd1.dll
 	$<
 <<
 
-{E:/qt-test/build-QtAvTest-Desktop_Qt_5_2_1_MSVC2012_32bit-Release/QtAV/.ui/5.2.1/QtAVd}.cpp{..\.obj\QtAVd_win_x86\}.obj::
+{E:\qt-test\QtAvTest\QtAV\src}.cpp{..\.obj\QtAVd_win_x86\}.obj::
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -Fo..\.obj\QtAVd_win_x86\ @<<
 	$<
 <<
 
-{E:/qt-test/build-QtAvTest-Desktop_Qt_5_2_1_MSVC2012_32bit-Release/QtAV/.ui/5.2.1/QtAVd}.cc{..\.obj\QtAVd_win_x86\}.obj::
+{E:\qt-test\QtAvTest\QtAV\src}.cc{..\.obj\QtAVd_win_x86\}.obj::
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -Fo..\.obj\QtAVd_win_x86\ @<<
 	$<
 <<
 
-{E:/qt-test/build-QtAvTest-Desktop_Qt_5_2_1_MSVC2012_32bit-Release/QtAV/.ui/5.2.1/QtAVd}.cxx{..\.obj\QtAVd_win_x86\}.obj::
+{E:\qt-test\QtAvTest\QtAV\src}.cxx{..\.obj\QtAVd_win_x86\}.obj::
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -Fo..\.obj\QtAVd_win_x86\ @<<
 	$<
 <<
 
-{E:/qt-test/build-QtAvTest-Desktop_Qt_5_2_1_MSVC2012_32bit-Release/QtAV/.ui/5.2.1/QtAVd}.c{..\.obj\QtAVd_win_x86\}.obj::
+{E:\qt-test\QtAvTest\QtAV\src}.c{..\.obj\QtAVd_win_x86\}.obj::
 	$(CC) -c $(CFLAGS) $(INCPATH) -Fo..\.obj\QtAVd_win_x86\ @<<
 	$<
 <<
@@ -283,26 +283,6 @@ DESTDIR_TARGET = ..\lib_win_x86\QtAVd1.dll
 	$<
 <<
 
-{..\.rcc\5.2.1\QtAVd}.cpp{..\.obj\QtAVd_win_x86\}.obj::
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -Fo..\.obj\QtAVd_win_x86\ @<<
-	$<
-<<
-
-{..\.rcc\5.2.1\QtAVd}.cc{..\.obj\QtAVd_win_x86\}.obj::
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -Fo..\.obj\QtAVd_win_x86\ @<<
-	$<
-<<
-
-{..\.rcc\5.2.1\QtAVd}.cxx{..\.obj\QtAVd_win_x86\}.obj::
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -Fo..\.obj\QtAVd_win_x86\ @<<
-	$<
-<<
-
-{..\.rcc\5.2.1\QtAVd}.c{..\.obj\QtAVd_win_x86\}.obj::
-	$(CC) -c $(CFLAGS) $(INCPATH) -Fo..\.obj\QtAVd_win_x86\ @<<
-	$<
-<<
-
 {.}.cpp{..\.obj\QtAVd_win_x86\}.obj::
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -Fo..\.obj\QtAVd_win_x86\ @<<
 	$<
@@ -323,22 +303,42 @@ DESTDIR_TARGET = ..\lib_win_x86\QtAVd1.dll
 	$<
 <<
 
-{E:\qt-test\QtAvTest\QtAV\src}.cpp{..\.obj\QtAVd_win_x86\}.obj::
+{..\.rcc\5.2.1\QtAVd}.cpp{..\.obj\QtAVd_win_x86\}.obj::
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -Fo..\.obj\QtAVd_win_x86\ @<<
 	$<
 <<
 
-{E:\qt-test\QtAvTest\QtAV\src}.cc{..\.obj\QtAVd_win_x86\}.obj::
+{..\.rcc\5.2.1\QtAVd}.cc{..\.obj\QtAVd_win_x86\}.obj::
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -Fo..\.obj\QtAVd_win_x86\ @<<
 	$<
 <<
 
-{E:\qt-test\QtAvTest\QtAV\src}.cxx{..\.obj\QtAVd_win_x86\}.obj::
+{..\.rcc\5.2.1\QtAVd}.cxx{..\.obj\QtAVd_win_x86\}.obj::
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -Fo..\.obj\QtAVd_win_x86\ @<<
 	$<
 <<
 
-{E:\qt-test\QtAvTest\QtAV\src}.c{..\.obj\QtAVd_win_x86\}.obj::
+{..\.rcc\5.2.1\QtAVd}.c{..\.obj\QtAVd_win_x86\}.obj::
+	$(CC) -c $(CFLAGS) $(INCPATH) -Fo..\.obj\QtAVd_win_x86\ @<<
+	$<
+<<
+
+{E:\qt-test\QtAvTest\QtAV\src\utils}.cpp{..\.obj\QtAVd_win_x86\}.obj::
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -Fo..\.obj\QtAVd_win_x86\ @<<
+	$<
+<<
+
+{E:\qt-test\QtAvTest\QtAV\src\utils}.cc{..\.obj\QtAVd_win_x86\}.obj::
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -Fo..\.obj\QtAVd_win_x86\ @<<
+	$<
+<<
+
+{E:\qt-test\QtAvTest\QtAV\src\utils}.cxx{..\.obj\QtAVd_win_x86\}.obj::
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -Fo..\.obj\QtAVd_win_x86\ @<<
+	$<
+<<
+
+{E:\qt-test\QtAvTest\QtAV\src\utils}.c{..\.obj\QtAVd_win_x86\}.obj::
 	$(CC) -c $(CFLAGS) $(INCPATH) -Fo..\.obj\QtAVd_win_x86\ @<<
 	$<
 <<
@@ -370,14 +370,14 @@ E:\qt-test\build-QtAvTest-Desktop_Qt_5_2_1_MSVC2012_32bit-Release\QtAV\.obj\QtAV
 	rc -D_DEBUG $(DEFINES) -fo E:\qt-test\build-QtAvTest-Desktop_Qt_5_2_1_MSVC2012_32bit-Release\QtAV\.obj\QtAVd_win_x86\QtAV.res E:\qt-test\QtAvTest\QtAV\res\QtAV.rc
 
 ..\lib_win_x86\QtAVd.prl: 
-	@$(QMAKE) -prl  -spec win32-msvc2012 E:\qt-test\QtAvTest\QtAvTest.pro
+	@$(QMAKE) -prl  -spec win32-msvc2012 E:\qt-test\QtAvTest\QtAV\QtAV.pro
 qmake: FORCE
 	@$(QMAKE) -spec win32-msvc2012 -o Makefile.libQtAV.Debug E:\qt-test\QtAvTest\QtAV\src\libQtAV.pro
 
 qmake_all: FORCE
 
 dist:
-	$(ZIP) QtAVd.zip $(SOURCES) $(DIST) E:\qt-test\QtAvTest\QtAvTest.pro C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\spec_pre.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\common\shell-win32.conf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\qconfig.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_axbase.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_axbase_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_axcontainer.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_axcontainer_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_axserver.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_axserver_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_bluetooth.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_bluetooth_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_bootstrap_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_clucene_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_concurrent.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_concurrent_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_core.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_core_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_declarative.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_declarative_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_designer.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_designer_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_designercomponents_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_gui.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_gui_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_help.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_help_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_multimedia.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_multimedia_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_multimediawidgets.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_multimediawidgets_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_network.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_network_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_nfc.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_nfc_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_opengl.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_opengl_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_openglextensions.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_openglextensions_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_platformsupport_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_positioning.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_positioning_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_printsupport.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_printsupport_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_qml.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_qml_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_qmldevtools_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_qmltest.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_qmltest_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_qtmultimediaquicktools_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_quick.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_quick_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_quickparticles_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_script.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_script_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_scripttools.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_scripttools_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_sensors.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_sensors_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_serialport.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_serialport_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_sql.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_sql_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_svg.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_svg_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_testlib.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_testlib_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_uitools.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_uitools_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_webkit.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_webkit_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_webkitwidgets.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_webkitwidgets_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_widgets.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_widgets_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_winextras.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_winextras_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_xml.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_xml_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_xmlpatterns.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_xmlpatterns_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\qt_functions.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\qt_config.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\win32-msvc2012\qmake.conf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\spec_post.prf ..\.qmake.cache C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\exclusive_builds.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\default_pre.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\win32\default_pre.prf E:\qt-test\QtAvTest\QtAV\common.pri E:\qt-test\QtAvTest\QtAV\src\libQtAV.pri E:\qt-test\QtAvTest\QtAV\deploy.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\resolve_config.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\exclusive_builds_post.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\default_post.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\build_pass.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\win32\rtti.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\warn_on.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\qt.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\resources.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\moc.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\win32\opengl.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\uic.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\win32\windows.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\testcase_targets.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\exceptions.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\yacc.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\lex.prf E:\qt-test\QtAvTest\QtAV\src\libQtAV.pro E:\qt-test\QtAvTest\QtAV\i18n\QtAV.qrc E:\qt-test\QtAvTest\QtAV\src\shaders\shaders.qrc C:/Qt/Qt.msvc32.5.2.1/5.2.1/msvc2012/lib/Qt5OpenGLd.prl C:/Qt/Qt.msvc32.5.2.1/5.2.1/msvc2012/lib/Qt5Widgetsd.prl C:/Qt/Qt.msvc32.5.2.1/5.2.1/msvc2012/lib/Qt5Guid.prl C:/Qt/Qt.msvc32.5.2.1/5.2.1/msvc2012/lib/Qt5Cored.prl C:/Qt/Qt.msvc32.5.2.1/5.2.1/msvc2012/lib/libEGLd.prl C:/Qt/Qt.msvc32.5.2.1/5.2.1/msvc2012/lib/libGLESv2d.prl E:\qt-test\QtAvTest\QtAV\i18n\QtAV_zh_CN.ts E:\qt-test\QtAvTest\QtAV\i18n\QtAV_zh_CN.ts RESOURCES HEADERS SOURCES OBJECTIVE_SOURCES FORMS YACCSOURCES YACCSOURCES LEXSOURCES 
+	$(ZIP) QtAVd.zip $(SOURCES) $(DIST) E:\qt-test\QtAvTest\QtAV\QtAV.pro C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\spec_pre.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\common\shell-win32.conf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\qconfig.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_axbase.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_axbase_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_axcontainer.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_axcontainer_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_axserver.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_axserver_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_bluetooth.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_bluetooth_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_bootstrap_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_clucene_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_concurrent.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_concurrent_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_core.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_core_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_declarative.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_declarative_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_designer.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_designer_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_designercomponents_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_gui.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_gui_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_help.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_help_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_multimedia.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_multimedia_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_multimediawidgets.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_multimediawidgets_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_network.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_network_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_nfc.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_nfc_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_opengl.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_opengl_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_openglextensions.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_openglextensions_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_platformsupport_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_positioning.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_positioning_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_printsupport.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_printsupport_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_qml.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_qml_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_qmldevtools_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_qmltest.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_qmltest_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_qtmultimediaquicktools_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_quick.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_quick_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_quickparticles_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_script.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_script_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_scripttools.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_scripttools_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_sensors.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_sensors_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_serialport.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_serialport_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_sql.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_sql_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_svg.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_svg_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_testlib.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_testlib_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_uitools.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_uitools_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_webkit.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_webkit_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_webkitwidgets.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_webkitwidgets_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_widgets.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_widgets_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_winextras.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_winextras_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_xml.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_xml_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_xmlpatterns.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\modules\qt_lib_xmlpatterns_private.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\qt_functions.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\qt_config.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\win32-msvc2012\qmake.conf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\spec_post.prf ..\.qmake.cache C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\exclusive_builds.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\default_pre.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\win32\default_pre.prf E:\qt-test\QtAvTest\QtAV\common.pri E:\qt-test\QtAvTest\QtAV\src\libQtAV.pri E:\qt-test\QtAvTest\QtAV\deploy.pri C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\resolve_config.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\exclusive_builds_post.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\default_post.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\build_pass.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\win32\rtti.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\warn_on.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\qt.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\resources.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\moc.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\win32\opengl.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\uic.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\win32\windows.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\testcase_targets.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\exceptions.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\yacc.prf C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\mkspecs\features\lex.prf E:\qt-test\QtAvTest\QtAV\src\libQtAV.pro E:\qt-test\QtAvTest\QtAV\i18n\QtAV.qrc E:\qt-test\QtAvTest\QtAV\src\shaders\shaders.qrc C:/Qt/Qt.msvc32.5.2.1/5.2.1/msvc2012/lib/Qt5OpenGLd.prl C:/Qt/Qt.msvc32.5.2.1/5.2.1/msvc2012/lib/Qt5Widgetsd.prl C:/Qt/Qt.msvc32.5.2.1/5.2.1/msvc2012/lib/Qt5Guid.prl C:/Qt/Qt.msvc32.5.2.1/5.2.1/msvc2012/lib/Qt5Cored.prl C:/Qt/Qt.msvc32.5.2.1/5.2.1/msvc2012/lib/libEGLd.prl C:/Qt/Qt.msvc32.5.2.1/5.2.1/msvc2012/lib/libGLESv2d.prl E:\qt-test\QtAvTest\QtAV\i18n\QtAV_zh_CN.ts E:\qt-test\QtAvTest\QtAV\i18n\QtAV_zh_CN.ts RESOURCES HEADERS SOURCES OBJECTIVE_SOURCES FORMS YACCSOURCES YACCSOURCES LEXSOURCES 
 
 clean: compiler_clean 
 	-$(DEL_FILE) ..\.obj\QtAVd_win_x86\AudioResamplerFF.obj ..\.obj\QtAVd_win_x86\AudioResamplerLibav.obj ..\.obj\QtAVd_win_x86\AudioOutputPortAudio.obj ..\.obj\QtAVd_win_x86\GDIRenderer.obj ..\.obj\QtAVd_win_x86\Direct2DRenderer.obj ..\.obj\QtAVd_win_x86\GLWidgetRenderer.obj ..\.obj\QtAVd_win_x86\VideoDecoderCUDA.obj ..\.obj\QtAVd_win_x86\cuda_api.obj ..\.obj\QtAVd_win_x86\VideoDecoderDXVA.obj ..\.obj\QtAVd_win_x86\QtAV_Compat.obj ..\.obj\QtAVd_win_x86\QtAV_Global.obj ..\.obj\QtAVd_win_x86\GPUMemCopy.obj ..\.obj\QtAVd_win_x86\AudioThread.obj ..\.obj\QtAVd_win_x86\AVThread.obj ..\.obj\QtAVd_win_x86\AudioDecoder.obj ..\.obj\QtAVd_win_x86\AudioFormat.obj ..\.obj\QtAVd_win_x86\AudioFrame.obj ..\.obj\QtAVd_win_x86\AudioOutput.obj ..\.obj\QtAVd_win_x86\AudioOutputTypes.obj ..\.obj\QtAVd_win_x86\AudioResampler.obj ..\.obj\QtAVd_win_x86\AudioResamplerTypes.obj ..\.obj\QtAVd_win_x86\AVDecoder.obj ..\.obj\QtAVd_win_x86\AVDemuxer.obj ..\.obj\QtAVd_win_x86\AVDemuxThread.obj ..\.obj\QtAVd_win_x86\ColorTransform.obj ..\.obj\QtAVd_win_x86\Frame.obj ..\.obj\QtAVd_win_x86\Filter.obj ..\.obj\QtAVd_win_x86\FilterContext.obj ..\.obj\QtAVd_win_x86\FilterManager.obj ..\.obj\QtAVd_win_x86\GraphicsItemRenderer.obj ..\.obj\QtAVd_win_x86\ImageConverter.obj ..\.obj\QtAVd_win_x86\ImageConverterFF.obj ..\.obj\QtAVd_win_x86\QPainterRenderer.obj ..\.obj\QtAVd_win_x86\OSD.obj ..\.obj\QtAVd_win_x86\OSDFilter.obj ..\.obj\QtAVd_win_x86\Packet.obj ..\.obj\QtAVd_win_x86\AVError.obj ..\.obj\QtAVd_win_x86\AVPlayer.obj ..\.obj\QtAVd_win_x86\VideoCapture.obj ..\.obj\QtAVd_win_x86\VideoFormat.obj ..\.obj\QtAVd_win_x86\VideoFrame.obj ..\.obj\QtAVd_win_x86\VideoRenderer.obj ..\.obj\QtAVd_win_x86\VideoRendererTypes.obj ..\.obj\QtAVd_win_x86\VideoOutput.obj ..\.obj\QtAVd_win_x86\VideoOutputEventFilter.obj ..\.obj\QtAVd_win_x86\WidgetRenderer.obj ..\.obj\QtAVd_win_x86\AVOutput.obj ..\.obj\QtAVd_win_x86\OutputSet.obj ..\.obj\QtAVd_win_x86\AVClock.obj ..\.obj\QtAVd_win_x86\Statistics.obj ..\.obj\QtAVd_win_x86\VideoDecoder.obj
@@ -407,8 +407,8 @@ compiler_rcc_clean:
 	C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\bin\rcc.exe -name QtAV E:\qt-test\QtAvTest\QtAV\i18n\QtAV.qrc -o ..\.rcc\5.2.1\QtAVd\qrc_QtAV.cpp
 
 ..\.rcc\5.2.1\QtAVd\qrc_shaders.cpp: E:\qt-test\QtAvTest\QtAV\src\shaders\shaders.qrc \
-		E:\qt-test\QtAvTest\QtAV\src\shaders\rgb.f.glsl \
-		E:\qt-test\QtAvTest\QtAV\src\shaders\yuv_rgb.f.glsl
+		E:\qt-test\QtAvTest\QtAV\src\shaders\yuv_rgb.f.glsl \
+		E:\qt-test\QtAvTest\QtAV\src\shaders\rgb.f.glsl
 	C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\bin\rcc.exe -name shaders E:\qt-test\QtAvTest\QtAV\src\shaders\shaders.qrc -o ..\.rcc\5.2.1\QtAVd\qrc_shaders.cpp
 
 compiler_moc_header_make_all: ..\.moc\5.2.1\QtAVd\moc_GDIRenderer.cpp ..\.moc\5.2.1\QtAVd\moc_Direct2DRenderer.cpp ..\.moc\5.2.1\QtAVd\moc_GLWidgetRenderer.cpp ..\.moc\5.2.1\QtAVd\moc_AVDemuxer.cpp ..\.moc\5.2.1\QtAVd\moc_AVPlayer.cpp ..\.moc\5.2.1\QtAVd\moc_VideoCapture.cpp ..\.moc\5.2.1\QtAVd\moc_VideoOutput.cpp ..\.moc\5.2.1\QtAVd\moc_WidgetRenderer.cpp ..\.moc\5.2.1\QtAVd\moc_AVClock.cpp ..\.moc\5.2.1\QtAVd\moc_AVDemuxThread.cpp ..\.moc\5.2.1\QtAVd\moc_AVThread.cpp ..\.moc\5.2.1\QtAVd\moc_AudioThread.cpp ..\.moc\5.2.1\QtAVd\moc_VideoThread.cpp ..\.moc\5.2.1\QtAVd\moc_VideoOutputEventFilter.cpp ..\.moc\5.2.1\QtAVd\moc_OutputSet.cpp ..\.moc\5.2.1\QtAVd\moc_FilterManager.cpp
