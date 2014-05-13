@@ -61,6 +61,26 @@ DESTDIR_TARGET = debug\zsPlayer.exe
 
 .SUFFIXES: .c .cpp .cc .cxx
 
+{..\..\MVC\zsPlayer}.cpp{debug\}.obj::
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -Fodebug\ @<<
+	$<
+<<
+
+{..\..\MVC\zsPlayer}.cc{debug\}.obj::
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -Fodebug\ @<<
+	$<
+<<
+
+{..\..\MVC\zsPlayer}.cxx{debug\}.obj::
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -Fodebug\ @<<
+	$<
+<<
+
+{..\..\MVC\zsPlayer}.c{debug\}.obj::
+	$(CC) -c $(CFLAGS) $(INCPATH) -Fodebug\ @<<
+	$<
+<<
+
 {..\..\MVC\zsPlayer\qtquick2applicationviewer}.cpp{debug\}.obj::
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -Fodebug\ @<<
 	$<
@@ -97,26 +117,6 @@ DESTDIR_TARGET = debug\zsPlayer.exe
 <<
 
 {debug}.c{debug\}.obj::
-	$(CC) -c $(CFLAGS) $(INCPATH) -Fodebug\ @<<
-	$<
-<<
-
-{..\..\MVC\zsPlayer}.cpp{debug\}.obj::
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -Fodebug\ @<<
-	$<
-<<
-
-{..\..\MVC\zsPlayer}.cc{debug\}.obj::
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -Fodebug\ @<<
-	$<
-<<
-
-{..\..\MVC\zsPlayer}.cxx{debug\}.obj::
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -Fodebug\ @<<
-	$<
-<<
-
-{..\..\MVC\zsPlayer}.c{debug\}.obj::
 	$(CC) -c $(CFLAGS) $(INCPATH) -Fodebug\ @<<
 	$<
 <<
@@ -195,22 +195,22 @@ compiler_rcc_make_all: debug\qrc_res.cpp
 compiler_rcc_clean:
 	-$(DEL_FILE) debug\qrc_res.cpp
 debug\qrc_res.cpp: ..\..\MVC\zsPlayer\res.qrc \
-		..\..\MVC\zsPlayer\theme\default\forward.svg \
-		..\..\MVC\zsPlayer\theme\default\info.svg \
-		..\..\MVC\zsPlayer\theme\default\open.svg \
-		..\..\MVC\zsPlayer\theme\default\stop.svg \
-		..\..\MVC\zsPlayer\theme\default\help.svg \
-		..\..\MVC\zsPlayer\theme\default\play.svg \
-		..\..\MVC\zsPlayer\theme\default\backward.svg \
-		..\..\MVC\zsPlayer\theme\default\fullscreen.svg \
-		..\..\MVC\zsPlayer\theme\default\pause.svg \
-		..\..\MVC\zsPlayer\theme\default\close.svg \
+		..\..\MVC\zsPlayer\qml\zsPlayer\utils.js \
+		..\..\MVC\zsPlayer\qml\zsPlayer\main.qml \
+		..\..\MVC\zsPlayer\qml\zsPlayer\ProgressBar.qml \
 		..\..\MVC\zsPlayer\qml\zsPlayer\ControlPanel.qml \
 		..\..\MVC\zsPlayer\qml\zsPlayer\Button.qml \
-		..\..\MVC\zsPlayer\qml\zsPlayer\ProgressBar.qml \
 		..\..\MVC\zsPlayer\qml\zsPlayer\Slider.qml \
-		..\..\MVC\zsPlayer\qml\zsPlayer\utils.js \
-		..\..\MVC\zsPlayer\qml\zsPlayer\main.qml
+		..\..\MVC\zsPlayer\theme\default\forward.svg \
+		..\..\MVC\zsPlayer\theme\default\fullscreen.svg \
+		..\..\MVC\zsPlayer\theme\default\backward.svg \
+		..\..\MVC\zsPlayer\theme\default\info.svg \
+		..\..\MVC\zsPlayer\theme\default\pause.svg \
+		..\..\MVC\zsPlayer\theme\default\open.svg \
+		..\..\MVC\zsPlayer\theme\default\stop.svg \
+		..\..\MVC\zsPlayer\theme\default\close.svg \
+		..\..\MVC\zsPlayer\theme\default\help.svg \
+		..\..\MVC\zsPlayer\theme\default\play.svg
 	C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\bin\rcc.exe -name res ..\..\MVC\zsPlayer\res.qrc -o debug\qrc_res.cpp
 
 compiler_moc_header_make_all: debug\moc_qtquick2applicationviewer.cpp

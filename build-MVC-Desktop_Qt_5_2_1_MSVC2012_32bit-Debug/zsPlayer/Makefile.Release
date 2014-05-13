@@ -61,26 +61,6 @@ DESTDIR_TARGET = release\zsPlayer.exe
 
 .SUFFIXES: .c .cpp .cc .cxx
 
-{..\..\MVC\zsPlayer\qtquick2applicationviewer}.cpp{release\}.obj::
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -Forelease\ @<<
-	$<
-<<
-
-{..\..\MVC\zsPlayer\qtquick2applicationviewer}.cc{release\}.obj::
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -Forelease\ @<<
-	$<
-<<
-
-{..\..\MVC\zsPlayer\qtquick2applicationviewer}.cxx{release\}.obj::
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -Forelease\ @<<
-	$<
-<<
-
-{..\..\MVC\zsPlayer\qtquick2applicationviewer}.c{release\}.obj::
-	$(CC) -c $(CFLAGS) $(INCPATH) -Forelease\ @<<
-	$<
-<<
-
 {release}.cpp{release\}.obj::
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -Forelease\ @<<
 	$<
@@ -117,6 +97,26 @@ DESTDIR_TARGET = release\zsPlayer.exe
 <<
 
 {..\..\MVC\zsPlayer}.c{release\}.obj::
+	$(CC) -c $(CFLAGS) $(INCPATH) -Forelease\ @<<
+	$<
+<<
+
+{..\..\MVC\zsPlayer\qtquick2applicationviewer}.cpp{release\}.obj::
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -Forelease\ @<<
+	$<
+<<
+
+{..\..\MVC\zsPlayer\qtquick2applicationviewer}.cc{release\}.obj::
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -Forelease\ @<<
+	$<
+<<
+
+{..\..\MVC\zsPlayer\qtquick2applicationviewer}.cxx{release\}.obj::
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -Forelease\ @<<
+	$<
+<<
+
+{..\..\MVC\zsPlayer\qtquick2applicationviewer}.c{release\}.obj::
 	$(CC) -c $(CFLAGS) $(INCPATH) -Forelease\ @<<
 	$<
 <<
@@ -183,8 +183,12 @@ compiler_rcc_make_all: release\qrc_res.cpp
 compiler_rcc_clean:
 	-$(DEL_FILE) release\qrc_res.cpp
 release\qrc_res.cpp: ..\..\MVC\zsPlayer\res.qrc \
-		..\..\MVC\zsPlayer\theme\default\pause.svg \
-		..\..\MVC\zsPlayer\theme\default\forward.svg \
+		..\..\MVC\zsPlayer\qml\zsPlayer\Slider.qml \
+		..\..\MVC\zsPlayer\qml\zsPlayer\ControlPanel.qml \
+		..\..\MVC\zsPlayer\qml\zsPlayer\main.qml \
+		..\..\MVC\zsPlayer\qml\zsPlayer\ProgressBar.qml \
+		..\..\MVC\zsPlayer\qml\zsPlayer\utils.js \
+		..\..\MVC\zsPlayer\qml\zsPlayer\Button.qml \
 		..\..\MVC\zsPlayer\theme\default\close.svg \
 		..\..\MVC\zsPlayer\theme\default\backward.svg \
 		..\..\MVC\zsPlayer\theme\default\info.svg \
@@ -193,12 +197,8 @@ release\qrc_res.cpp: ..\..\MVC\zsPlayer\res.qrc \
 		..\..\MVC\zsPlayer\theme\default\help.svg \
 		..\..\MVC\zsPlayer\theme\default\play.svg \
 		..\..\MVC\zsPlayer\theme\default\fullscreen.svg \
-		..\..\MVC\zsPlayer\qml\zsPlayer\main.qml \
-		..\..\MVC\zsPlayer\qml\zsPlayer\Button.qml \
-		..\..\MVC\zsPlayer\qml\zsPlayer\Slider.qml \
-		..\..\MVC\zsPlayer\qml\zsPlayer\utils.js \
-		..\..\MVC\zsPlayer\qml\zsPlayer\ControlPanel.qml \
-		..\..\MVC\zsPlayer\qml\zsPlayer\ProgressBar.qml
+		..\..\MVC\zsPlayer\theme\default\pause.svg \
+		..\..\MVC\zsPlayer\theme\default\forward.svg
 	C:\Qt\Qt.msvc32.5.2.1\5.2.1\msvc2012\bin\rcc.exe -name res ..\..\MVC\zsPlayer\res.qrc -o release\qrc_res.cpp
 
 compiler_moc_header_make_all: release\moc_qtquick2applicationviewer.cpp
