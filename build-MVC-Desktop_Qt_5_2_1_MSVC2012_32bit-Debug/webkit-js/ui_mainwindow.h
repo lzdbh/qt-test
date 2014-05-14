@@ -53,7 +53,6 @@ public:
         verticalLayout->setContentsMargins(0, 0, 0, 0);
         webView = new QWebView(verticalLayoutWidget);
         webView->setObjectName(QStringLiteral("webView"));
-        webView->setUrl(QUrl(QStringLiteral("file:///E:/qt-test/build-MVC-Desktop_Qt_5_2_1_MSVC2012_32bit-Debug/webkit-js/1.html")));
 
         verticalLayout->addWidget(webView);
 
