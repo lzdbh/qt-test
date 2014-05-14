@@ -17,4 +17,5 @@ include(qtquick2applicationviewer/qtquick2applicationviewer.pri)
 qtcAddDeployment()
 
 RESOURCES += \
-    res.qrc
+    res.qrc \
+    theme/theme.qrc
