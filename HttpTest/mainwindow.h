@@ -18,7 +18,7 @@ public:
     ~MainWindow();
 
     QNetworkCookieJar *getCookieJar() const;
-
+    void setCookieJar(QNetworkCookieJar *cookieJar);
 private:
     Ui::MainWindow *ui;
     QNetworkCookieJar *cookieJar;

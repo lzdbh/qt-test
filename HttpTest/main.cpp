@@ -8,10 +8,10 @@ int main(int argc, char *argv[])
     TestMainWindow tw;
     tw.show();
 
-//    MainWindow w;
-//    w.show();
+    MainWindow w;
+    w.show();
 
-    //tw.setCookie(w.getCookieJar());
+    tw.setMain(&w);
 
     return a.exec();
 }
