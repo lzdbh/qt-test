@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+	
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <title>红袋鼠桌面</title>
+  </head>
+  <body>
+	<input type="button" id="btn_xx" value="xxxx" />
+	<script  type="text/javascript">	
+	$(function(){
+			$('#btn_xx').live('click',function(){
+				var _params={};
+				$.getJSON('http://desktop.61read.com/login/islogin?callback=?', _params, function(json){
+					alert(json.islogin);
+				});
+			});
+	});
+		
+	</script> 
+  </body>
+</html>
