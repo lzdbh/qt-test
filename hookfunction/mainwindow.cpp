@@ -48,6 +48,8 @@ LRESULT CALLBACK keyProc(int nCode,WPARAM wParam,LPARAM lParam )
             qDebug() << "LWIN/RWIN";
         }else if(pkbhs->vkCode == VK_F4 && pkbhs->flags & LLKHF_ALTDOWN){
             qDebug() << "Alt+F4";
+        }else if(pkbhs->vkCode == VK_DELETE){
+            qDebug() << "ctrl+alt+del";
         }
         if(pkbhs->vkCode == VK_F12)
         {
