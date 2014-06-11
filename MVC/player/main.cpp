@@ -190,6 +190,7 @@ int main(int argc, char *argv[])
     if (opt_has_file) {
         window.play(a.arguments().last());
     }
+    window.play("http://static.61read.com/videos/2013/11/HuoMaoZiYunYiFu.mp4");
     int ret = a.exec();
     return ret;
 }

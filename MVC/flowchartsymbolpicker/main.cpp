@@ -15,6 +15,7 @@ int main(int argc, char *argv[])
 
     FlowChartSymbolPicker window(map);
     window.resize(300, 300);
+    window.setStyleSheet("border:1px solid #000");
     window.show();
 
     return a.exec();

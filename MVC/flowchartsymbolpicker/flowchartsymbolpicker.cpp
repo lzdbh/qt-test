@@ -5,15 +5,15 @@
 #include <QDialogButtonBox>
 #include <QVBoxLayout>
 #include <QMessageBox>
-
+#include <QDebug>
 FlowChartSymbolPicker::FlowChartSymbolPicker(const QMap<int, QString> &symbolMap,QWidget *parent) :
     QDialog(parent)
 {
     id=-1;
     listWidget=new QListWidget(this);
-    listWidget->setIconSize(QSize(100,100));
+    listWidget->setIconSize(QSize(20,20));
     listWidget->setEditTriggers(QAbstractItemView::AnyKeyPressed);
-    listWidget->setViewMode(QListView::IconMode);
+    listWidget->setViewMode(QListView::ListMode);
     QMapIterator<int,QString> i(symbolMap);
     while(i.hasNext())
     {
@@ -21,11 +21,15 @@ FlowChartSymbolPicker::FlowChartSymbolPicker(const QMap<int, QString> &symbolMap
         QListWidgetItem *item=new QListWidgetItem(i.value(),listWidget);
         item->setIcon(iconForSymbol(i.value()));
         item->setData(Qt::UserRole,i.key());
+        item->setText("i.key()+");
+        item->setToolTip("sdfsdfsdf");
+        qDebug()<<i.key()<<"--"<<i.value();
     }
 
     buttonBox=new QDialogButtonBox(QDialogButtonBox::Ok|QDialogButtonBox::Cancel,this);
     connect(buttonBox,SIGNAL(accepted()),this,SLOT(message()));
     connect(buttonBox,SIGNAL(rejected()),this,SLOT(reject()));
+
 
     QVBoxLayout *layout=new QVBoxLayout(this);
     layout->addWidget(listWidget);

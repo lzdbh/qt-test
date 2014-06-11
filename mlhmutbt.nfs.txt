@@ -1,0 +1,84 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	modified:   MVC/PopupMenu/mainwindow.cpp
+#	modified:   MVC/flowchartsymbolpicker/flowchartsymbolpicker.cpp
+#	modified:   MVC/flowchartsymbolpicker/main.cpp
+#	modified:   MVC/flowchartsymbolpicker/res.qrc
+#	modified:   MVC/player/MainWindow.cpp
+#	modified:   MVC/player/main.cpp
+#	modified:   build-QtAvTest-Desktop_Qt_5_2_1_MSVC2012_32bit-Debug/QtAV/examples/QMLPlayer/qml/QMLPlayer/main.qml
+#	modified:   build-QtAvTest-Desktop_Qt_5_2_1_MSVC2012_32bit-Debug/QtAV/lib_win_x86/QmlAVd.dll
+#	modified:   build-QtAvTest-Desktop_Qt_5_2_1_MSVC2012_32bit-Debug/QtAV/lib_win_x86/QmlAVd.exp
+#	modified:   build-QtAvTest-Desktop_Qt_5_2_1_MSVC2012_32bit-Debug/QtAV/lib_win_x86/QmlAVd.lib
+#	modified:   build-QtAvTest-Desktop_Qt_5_2_1_MSVC2012_32bit-Debug/QtAV/lib_win_x86/QtAVd1.dll
+#	modified:   build-QtAvTest-Desktop_Qt_5_2_1_MSVC2012_32bit-Debug/QtAV/lib_win_x86/QtAVd1.lib
+#	modified:   build-QtAvTest-Desktop_Qt_5_2_1_MSVC2012_32bit-Debug/QtAV/lib_win_x86/commond1.dll
+#	modified:   build-QtAvTest-Desktop_Qt_5_2_1_MSVC2012_32bit-Debug/QtAV/lib_win_x86/commond1.lib
+#	modified:   build-QtAvTest-Desktop_Qt_5_2_1_MSVC2012_32bit-Release/QtAV/.rcc/5.2.1/QMLPlayer/qrc_qmlplayer.cpp
+#	modified:   build-QtAvTest-Desktop_Qt_5_2_1_MSVC2012_32bit-Release/QtAV/.rcc/5.2.1/QtAV/qrc_shaders.cpp
+#	modified:   build-QtAvTest-Desktop_Qt_5_2_1_MSVC2012_32bit-Release/QtAV/.rcc/5.2.1/common/qrc_theme.cpp
+#	modified:   build-QtAvTest-Desktop_Qt_5_2_1_MSVC2012_32bit-Release/QtAV/.rcc/5.2.1/player/qrc_player.cpp
+#	modified:   build-QtAvTest-Desktop_Qt_5_2_1_MSVC2012_32bit-Release/QtAV/.rcc/5.2.1/player/qrc_theme.cpp
+#	modified:   build-QtAvTest-Desktop_Qt_5_2_1_MSVC2012_32bit-Release/QtAV/.rcc/5.2.1/qmlvideofx/qrc_qmlvideofx.cpp
+#	modified:   build-QtAvTest-Desktop_Qt_5_2_1_MSVC2012_32bit-Release/QtAV/examples/QMLPlayer/qml/QMLPlayer/main.qml
+#	modified:   build-QtAvTest-Desktop_Qt_5_2_1_MSVC2012_32bit-Release/QtAV/lib_win_x86/QmlAV.dll
+#	modified:   build-QtAvTest-Desktop_Qt_5_2_1_MSVC2012_32bit-Release/QtAV/lib_win_x86/QmlAV.exp
+#	modified:   build-QtAvTest-Desktop_Qt_5_2_1_MSVC2012_32bit-Release/QtAV/lib_win_x86/QmlAV.lib
+#	modified:   build-QtAvTest-Desktop_Qt_5_2_1_MSVC2012_32bit-Release/QtAV/lib_win_x86/QtAV1.dll
+#	modified:   build-QtAvTest-Desktop_Qt_5_2_1_MSVC2012_32bit-Release/QtAV/lib_win_x86/QtAV1.exp
+#	modified:   build-QtAvTest-Desktop_Qt_5_2_1_MSVC2012_32bit-Release/QtAV/lib_win_x86/QtAV1.lib
+#	modified:   build-QtAvTest-Desktop_Qt_5_2_1_MSVC2012_32bit-Release/QtAV/lib_win_x86/common1.dll
+#	modified:   build-QtAvTest-Desktop_Qt_5_2_1_MSVC2012_32bit-Release/QtAV/lib_win_x86/common1.exp
+#	modified:   build-QtAvTest-Desktop_Qt_5_2_1_MSVC2012_32bit-Release/QtAV/lib_win_x86/common1.lib
+#
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#   (commit or discard the untracked or modified content in submodules)
+#
+#	modified:   QtAvTest/QtAV (modified content)
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	"14\345\274\240web\345\274\200\345\217\221\345\233\276.zip"
+#	HttpTest/
+#	MVC/flowchartsymbolpicker/flowchartsymbolpicker.cpp.autosave
+#	MVC/flowchartsymbolpicker/img/
+#	MyVlcPlayer/
+#	build-HttpTest-Desktop_Qt_5_2_1_MinGW_32bit-Debug/
+#	build-MyVlcPlayer-Desktop_Qt_5_2_1_MinGW_32bit-Debug/
+#	build-MyVlcPlayer-Desktop_Qt_5_3_0_MSVC2013_32bit-Debug/
+#	build-MyVlcPlayer-Desktop_Qt_5_3_0_MSVC2013_32bit-Release/
+#	build-QtAvTest-Desktop_Qt_5_2_1_MSVC2012_32bit-Debug/QtAV/.moc/5.2.1/QMLPlayer/
+#	build-QtAvTest-Desktop_Qt_5_2_1_MSVC2012_32bit-Debug/QtAV/.moc/5.2.1/QtAVd/
+#	build-QtAvTest-Desktop_Qt_5_2_1_MSVC2012_32bit-Debug/QtAV/.moc/5.2.1/commond/
+#	build-QtAvTest-Desktop_Qt_5_2_1_MSVC2012_32bit-Debug/QtAV/.moc/5.2.1/player/
+#	build-QtAvTest-Desktop_Qt_5_2_1_MSVC2012_32bit-Debug/QtAV/.moc/5.2.1/qmlmultiwindow/
+#	build-QtAvTest-Desktop_Qt_5_2_1_MSVC2012_32bit-Debug/QtAV/.moc/5.2.1/qmlvideofx/
+#	build-QtAvTest-Desktop_Qt_5_2_1_MSVC2012_32bit-Debug/QtAV/.moc/5.2.1/sharedoutput/
+#	build-QtAvTest-Desktop_Qt_5_2_1_MSVC2012_32bit-Debug/QtAV/.moc/5.2.1/videographicsitem/
+#	build-QtAvTest-Desktop_Qt_5_2_1_MSVC2012_32bit-Debug/QtAV/.moc/5.2.1/videogroup/
+#	build-QtAvTest-Desktop_Qt_5_2_1_MSVC2012_32bit-Debug/QtAV/.moc/5.2.1/videowall/
+#	build-QtAvTest-Desktop_Qt_5_2_1_MSVC2012_32bit-Debug/QtAV/.rcc/
+#	build-QtAvTest-Desktop_Qt_5_2_1_MSVC2012_32bit-Debug/QtAV/lib_win_x86/QtAVd1.dll.embed.manifest
+#	build-QtAvTest-Desktop_Qt_5_2_1_MSVC2012_32bit-Debug/QtAV/lib_win_x86/QtAVd1.dll_manifest.rc
+#	build-QtAvTest-Desktop_Qt_5_2_1_MSVC2012_32bit-Debug/QtAV/lib_win_x86/QtAVd1.dll_manifest.res
+#	build-QtAvTest-Desktop_Qt_5_2_1_MSVC2012_32bit-Debug/QtAV/lib_win_x86/QtAVd1.exp
+#	build-QtAvTest-Desktop_Qt_5_2_1_MSVC2012_32bit-Debug/QtAV/lib_win_x86/commond1.dll.embed.manifest
+#	build-QtAvTest-Desktop_Qt_5_2_1_MSVC2012_32bit-Debug/QtAV/lib_win_x86/commond1.dll_manifest.rc
+#	build-QtAvTest-Desktop_Qt_5_2_1_MSVC2012_32bit-Debug/QtAV/lib_win_x86/commond1.dll_manifest.res
+#	build-QtAvTest-Desktop_Qt_5_2_1_MSVC2012_32bit-Debug/QtAV/lib_win_x86/commond1.exp
+#	build-hookfunction-Desktop_Qt_5_2_1_MinGW_32bit-Debug/
+#	build-player-Desktop_Qt_5_2_1_MinGW_32bit-Debug/
+#	build-videowidget-Desktop_Qt_5_2_1_MSVC2012_32bit-Debug/
+#	build-videowidget-Desktop_Qt_5_2_1_MinGW_32bit-Release/
+#	hookfunction/
+#	player/
+#	videowidget/
+

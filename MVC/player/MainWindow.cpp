@@ -1,4 +1,4 @@
-/******************************************************************************
+﻿/******************************************************************************
     QtAV Player Demo:  this file is part of QtAV examples
     Copyright (C) 2012-2014 Wang Bin <wbsecg1@gmail.com>
 
@@ -174,7 +174,7 @@ void MainWindow::setupUi()
     mpTimeSlider = new Slider(mpControl);
     mpTimeSlider->setDisabled(true);
     //mpTimeSlider->setFixedHeight(8);
-    mpTimeSlider->setMaximumHeight(8);
+    mpTimeSlider->setMaximumHeight(10);
     mpTimeSlider->setTracking(true);
     mpTimeSlider->setOrientation(Qt::Horizontal);
     mpTimeSlider->setMinimum(0);
@@ -426,14 +426,27 @@ void MainWindow::setupUi()
     mpVOAction->setChecked(true);
 
 
-    mainLayout->addLayout(mpPlayerLayout);
-    mainLayout->addWidget(mpTimeSlider);
-    mainLayout->addWidget(mpControl);
+   mainLayout->addLayout(mpPlayerLayout);
+   //mainLayout->addWidget(mpTimeSlider);
+   mainLayout->addWidget(mpControl);
+
+    QHBoxLayout *timesSliderLayout=new QHBoxLayout;
+    timesSliderLayout->addWidget(mpTimeSlider);
 
     QHBoxLayout *controlLayout = new QHBoxLayout();
     controlLayout->setSpacing(0);
     controlLayout->setMargin(1);
-    mpControl->setLayout(controlLayout);
+
+    QVBoxLayout *mpControlLayout=new QVBoxLayout;
+    mpControlLayout->addLayout(timesSliderLayout);
+    mpControlLayout->addLayout(controlLayout);
+
+    mpControlLayout->setSpacing(0);
+    mpControlLayout->setMargin(1);
+
+    mpControl->setMinimumHeight(mpTimeSlider->height()+mpControl->height());
+    mpControl->setLayout(mpControlLayout);
+
     controlLayout->addWidget(mpCurrent);
     controlLayout->addWidget(mpTitle);
     QSpacerItem *space = new QSpacerItem(mpPlayPauseBtn->width(), mpPlayPauseBtn->height(), QSizePolicy::MinimumExpanding);

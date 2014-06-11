@@ -3,6 +3,8 @@
 #include <QImage>
 #include <QPixmap>
 #include <QDebug>
+#include <QSlider>
+#include <QHBoxLayout>
 
 
 
@@ -16,6 +18,8 @@ MainWindow::MainWindow(QWidget *parent) :
 
     connect(avatarLabel,&MenuLabel::clicked,this,&MainWindow::leftClicked);
     connect(avatarLabel,&MenuLabel::rightClicked,this,&MainWindow::rightClicked);
+
+
 }
 
 MainWindow::~MainWindow()

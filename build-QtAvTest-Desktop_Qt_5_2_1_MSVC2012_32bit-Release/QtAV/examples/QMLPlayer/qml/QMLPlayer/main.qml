@@ -69,6 +69,7 @@ Rectangle {
         }
         onPlaying: {
             control.duration = duration
+            console.debug("duration")
             control.setPlayingState()
         }
         onStopped: {
